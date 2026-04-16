@@ -1,0 +1,237 @@
+{
+  "baseline": {
+    "n_total": 1747,
+    "n_extracted": 1740,
+    "extraction_rate": 0.9959931310818546,
+    "r2_linear": 0.9658242578148759,
+    "r2_poly": 0.9717930298463444,
+    "r2_rf_oob": 0.9696905907358365,
+    "r2_sa": 0.9717930298463444,
+    "sa_non_adherence_pct": 2.8206970153655586,
+    "which_best": "poly",
+    "betas": {
+      "accuracy_score": 0.25884402277652274,
+      "creativity_score": 0.04591267733989206,
+      "depth_score": 0.12138574752616534,
+      "detail_score": 0.1745226974129074,
+      "helpfulness_score": 0.22159255299402936,
+      "relevance_score": 0.2039788366680765,
+      "_intercept": -0.6100076371421901
+    },
+    "overall_mean": 7.303639846743295,
+    "overall_sd": 2.109929979672137,
+    "factor_means": {
+      "accuracy_score": 8.312068965517241,
+      "creativity_score": 5.509770114942529,
+      "depth_score": 6.725862068965517,
+      "detail_score": 6.988505747126437,
+      "helpfulness_score": 7.922413793103448,
+      "relevance_score": 8.420114942528736
+    },
+    "factor_sds": {
+      "accuracy_score": 2.2170268171211793,
+      "creativity_score": 1.7837090902065065,
+      "depth_score": 2.010357912011092,
+      "detail_score": 2.235909828917343,
+      "helpfulness_score": 2.141960893766489,
+      "relevance_score": 2.1788749961850233
+    },
+    "job_dir": "/Users/benjaminfeuer/Documents/abb/data/mt_bench/jobs/mt-bench-factored-gpt4o-mini-context_dataset-42256aae",
+    "factor_cols": [
+      "accuracy_score",
+      "creativity_score",
+      "depth_score",
+      "detail_score",
+      "helpfulness_score",
+      "relevance_score"
+    ]
+  },
+  "phrase": {
+    "n_total": 1748,
+    "n_extracted": 1748,
+    "extraction_rate": 1.0,
+    "r2_linear": 0.9658827805755209,
+    "r2_poly": 0.9699669778687592,
+    "r2_rf_oob": 0.967893291124836,
+    "r2_sa": 0.9699669778687592,
+    "sa_non_adherence_pct": 3.0033022131240816,
+    "which_best": "poly",
+    "betas": {
+      "accuracy_score": 0.26574491511754267,
+      "creativity_score": 0.011017182028240967,
+      "depth_score": 0.14410742783553607,
+      "detail_score": 0.14210001349418727,
+      "helpfulness_score": 0.2565998501062634,
+      "relevance_score": 0.18926909144822754,
+      "_intercept": -0.39356847223282365
+    },
+    "overall_mean": 7.529176201372998,
+    "overall_sd": 2.039887312640409,
+    "factor_means": {
+      "accuracy_score": 8.454233409610984,
+      "creativity_score": 5.586384439359268,
+      "depth_score": 6.856979405034325,
+      "detail_score": 7.109839816933638,
+      "helpfulness_score": 7.882151029748284,
+      "relevance_score": 8.41933638443936
+    },
+    "factor_sds": {
+      "accuracy_score": 2.113729571955553,
+      "creativity_score": 1.7791574496049212,
+      "depth_score": 1.9589731389591512,
+      "detail_score": 2.1247459533853554,
+      "helpfulness_score": 2.1358717131155887,
+      "relevance_score": 2.0768887212073164
+    },
+    "job_dir": "/Users/benjaminfeuer/Documents/abb/data/mt_bench/jobs/mt-bench-intervention-phrase-fixation-gpt4o-mini-context_dataset-34890e76",
+    "factor_cols": [
+      "accuracy_score",
+      "creativity_score",
+      "depth_score",
+      "detail_score",
+      "helpfulness_score",
+      "relevance_score"
+    ]
+  },
+  "voice": {
+    "n_total": 1747,
+    "n_extracted": 1744,
+    "extraction_rate": 0.998282770463652,
+    "r2_linear": 0.9654066680188884,
+    "r2_poly": 0.9704704227442882,
+    "r2_rf_oob": 0.9708828450319567,
+    "r2_sa": 0.9708828450319567,
+    "sa_non_adherence_pct": 2.9117154968043346,
+    "which_best": "rf",
+    "betas": {
+      "accuracy_score": 0.2662514554159243,
+      "creativity_score": 0.02702808542661671,
+      "depth_score": 0.11814269992035785,
+      "detail_score": 0.164995273567152,
+      "helpfulness_score": 0.23333591980890087,
+      "relevance_score": 0.20977104846676634,
+      "_intercept": -0.5311680621238457
+    },
+    "overall_mean": 7.353211009174312,
+    "overall_sd": 2.120362986811389,
+    "factor_means": {
+      "accuracy_score": 8.313073394495413,
+      "creativity_score": 5.505160550458716,
+      "depth_score": 6.6995412844036695,
+      "detail_score": 6.968463302752293,
+      "helpfulness_score": 7.837155963302752,
+      "relevance_score": 8.353211009174313
+    },
+    "factor_sds": {
+      "accuracy_score": 2.2299095951210215,
+      "creativity_score": 1.8064640666251732,
+      "depth_score": 2.012377025463856,
+      "detail_score": 2.224526286915244,
+      "helpfulness_score": 2.156492590910467,
+      "relevance_score": 2.1618958046306327
+    },
+    "job_dir": "/Users/benjaminfeuer/Documents/abb/data/mt_bench/jobs/mt-bench-intervention-voice-bias-gpt4o-mini-context_dataset-62387a84",
+    "factor_cols": [
+      "accuracy_score",
+      "creativity_score",
+      "depth_score",
+      "detail_score",
+      "helpfulness_score",
+      "relevance_score"
+    ]
+  },
+  "lexicographic": {
+    "n_total": 1747,
+    "n_extracted": 1746,
+    "extraction_rate": 0.9994275901545506,
+    "r2_linear": 0.9319391407815426,
+    "r2_poly": 0.9548071312342821,
+    "r2_rf_oob": 0.9548406594684715,
+    "r2_sa": 0.9548406594684715,
+    "sa_non_adherence_pct": 4.515934053152848,
+    "which_best": "rf",
+    "betas": {
+      "accuracy_score": 0.29749961710825923,
+      "creativity_score": -0.03425165693622232,
+      "depth_score": 0.09632994798103114,
+      "detail_score": 0.17787692972326002,
+      "helpfulness_score": 0.4141850747314324,
+      "relevance_score": 0.022734117618493577,
+      "_intercept": -0.46833536392972785
+    },
+    "overall_mean": 7.155211912943872,
+    "overall_sd": 2.210801507938399,
+    "factor_means": {
+      "accuracy_score": 8.332760595647194,
+      "creativity_score": 5.546391752577319,
+      "depth_score": 6.768041237113402,
+      "detail_score": 7.0034364261168385,
+      "helpfulness_score": 7.84020618556701,
+      "relevance_score": 8.336197021764033
+    },
+    "factor_sds": {
+      "accuracy_score": 2.252495094611462,
+      "creativity_score": 1.7892935757751338,
+      "depth_score": 2.0799295641907687,
+      "detail_score": 2.2410572849458283,
+      "helpfulness_score": 2.2715907766592887,
+      "relevance_score": 2.216847751456391
+    },
+    "job_dir": "/Users/benjaminfeuer/Documents/abb/data/mt_bench/jobs/mt-bench-intervention-lexicographic-gpt4o-mini-context_dataset-825c7812",
+    "factor_cols": [
+      "accuracy_score",
+      "creativity_score",
+      "depth_score",
+      "detail_score",
+      "helpfulness_score",
+      "relevance_score"
+    ]
+  },
+  "combined": {
+    "n_total": 1747,
+    "n_extracted": 1746,
+    "extraction_rate": 0.9994275901545506,
+    "r2_linear": 0.964405058167589,
+    "r2_poly": 0.9681502621907617,
+    "r2_rf_oob": 0.9670503412951155,
+    "r2_sa": 0.9681502621907617,
+    "sa_non_adherence_pct": 3.1849737809238277,
+    "which_best": "poly",
+    "betas": {
+      "accuracy_score": 0.27413111681225627,
+      "creativity_score": 0.00872964855181804,
+      "depth_score": 0.12616624102048327,
+      "detail_score": 0.14381001429382967,
+      "helpfulness_score": 0.27140752541599883,
+      "relevance_score": 0.18410679215134287,
+      "_intercept": -0.35675450305011847
+    },
+    "overall_mean": 7.60442917143948,
+    "overall_sd": 2.00846872616527,
+    "factor_means": {
+      "accuracy_score": 8.474226804123711,
+      "creativity_score": 5.5641466208476515,
+      "depth_score": 6.8344788087056125,
+      "detail_score": 7.111111111111111,
+      "helpfulness_score": 7.912943871706759,
+      "relevance_score": 8.457044673539519
+    },
+    "factor_sds": {
+      "accuracy_score": 2.0502764096531636,
+      "creativity_score": 1.7570676892054822,
+      "depth_score": 1.9537876484396586,
+      "detail_score": 2.1218530643321483,
+      "helpfulness_score": 2.1116089912887195,
+      "relevance_score": 2.026935857094834
+    },
+    "job_dir": "/Users/benjaminfeuer/Documents/abb/data/mt_bench/jobs/mt-bench-intervention-combined-gpt4o-mini-context_dataset-83e2a488",
+    "factor_cols": [
+      "accuracy_score",
+      "creativity_score",
+      "depth_score",
+      "detail_score",
+      "helpfulness_score",
+      "relevance_score"
+    ]
+  }
+}

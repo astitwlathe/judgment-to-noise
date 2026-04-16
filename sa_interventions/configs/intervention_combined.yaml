@@ -1,0 +1,25 @@
+job_name: mt-bench-intervention-combined-gpt4o-mini
+
+rubric_template: mt_bench_factored_combined
+
+rules:
+  - is_valid_json
+  - has_score_field
+
+judges:
+  - judge_id: gpt-4o-mini
+    temperature: 0.0
+
+guidelines:
+  - default_openai_hparams
+  - min_sample_size
+  - score_extraction
+
+context_path: ./data/mt_bench/context_dataset
+context_columns:
+  - question
+  - response
+
+n_concurrent: 16
+
+jobs_dir: ./data/mt_bench/jobs

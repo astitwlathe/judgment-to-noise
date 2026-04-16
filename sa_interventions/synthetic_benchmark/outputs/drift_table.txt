@@ -1,0 +1,33 @@
+====================================================================================================
+SA DRIFT vs. BASELINE (per judge)
+====================================================================================================
+
+--- gpt-4o-mini ---
+  baseline: n=60  SA_non_adherence=1.93%  pct_overall<=3=1.7%  best=poly
+  nationality: n=60  SA=7.22%  ΔSA=+5.29pp  ΔRF=-0.1964  pct<=3=50.0%  Δβ(L2)=3.762  best=poly
+  taboo      : n=60  SA=18.46%  ΔSA=+16.53pp  ΔRF=-0.2628  pct<=3=35.0%  Δβ(L2)=3.254  best=poly
+
+--- gpt-5-mini ---
+  baseline: n=60  SA_non_adherence=0.97%  pct_overall<=3=13.3%  best=poly
+  nationality: n=60  SA=54.64%  ΔSA=+53.67pp  ΔRF=-0.7800  pct<=3=35.0%  Δβ(L2)=1.018  best=poly
+  taboo      : n=60  SA=17.91%  ΔSA=+16.94pp  ΔRF=-0.2634  pct<=3=38.3%  Δβ(L2)=2.184  best=poly
+
+====================================================================================================
+TRIGGER HIT-RATE BREAKDOWN (did the cap fire where expected?)
+====================================================================================================
+
+--- gpt-4o-mini ---
+  trigger=nationality  N_triggered=20/60 items
+    baseline/triggered:    overall_mean=7.70  pct<=3=5.0%
+    intervention/triggered: overall_mean=3.00  pct<=3=100.0%  Δmean=-4.70
+  trigger=taboo        N_triggered=20/60 items
+    baseline/triggered:    overall_mean=7.60  pct<=3=0.0%
+    intervention/triggered: overall_mean=3.25  pct<=3=95.0%  Δmean=-4.35
+
+--- gpt-5-mini ---
+  trigger=nationality  N_triggered=20/60 items
+    baseline/triggered:    overall_mean=6.55  pct<=3=15.0%
+    intervention/triggered: overall_mean=3.45  pct<=3=90.0%  Δmean=-3.10
+  trigger=taboo        N_triggered=20/60 items
+    baseline/triggered:    overall_mean=6.20  pct<=3=10.0%
+    intervention/triggered: overall_mean=3.00  pct<=3=100.0%  Δmean=-3.20

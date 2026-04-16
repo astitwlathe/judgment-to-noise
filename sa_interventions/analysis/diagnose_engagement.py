@@ -14,7 +14,7 @@ import re
 from collections import Counter
 from pathlib import Path
 
-MT_JOBS = Path("/Users/benjaminfeuer/Documents/abb/data/mt_bench/jobs")
+MT_JOBS = Path("/path/to/abb/data/mt_bench/jobs")
 
 JOBS = {
     "baseline":      "mt-bench-factored-gpt4o-mini-context_dataset-42256aae",

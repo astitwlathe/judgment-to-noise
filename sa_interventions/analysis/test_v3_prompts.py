@@ -20,7 +20,7 @@ bias-induced overall shifts.
 Cost: ~$0.05 total.
 
 Usage:
-    source /Users/benjaminfeuer/Documents/secrets.env
+    source /path/to/secrets.env
     conda activate abb
     python test_v3_prompts.py
 """

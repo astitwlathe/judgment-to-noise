@@ -36,7 +36,7 @@
       "helpfulness_score": 2.141960893766489,
       "relevance_score": 2.1788749961850233
     },
-    "job_dir": "/Users/benjaminfeuer/Documents/abb/data/mt_bench/jobs/mt-bench-factored-gpt4o-mini-context_dataset-42256aae",
+    "job_dir": "/path/to/abb/data/mt_bench/jobs/mt-bench-factored-gpt4o-mini-context_dataset-42256aae",
     "factor_cols": [
       "accuracy_score",
       "creativity_score",
@@ -83,7 +83,7 @@
       "helpfulness_score": 2.1358717131155887,
       "relevance_score": 2.0768887212073164
     },
-    "job_dir": "/Users/benjaminfeuer/Documents/abb/data/mt_bench/jobs/mt-bench-intervention-phrase-fixation-gpt4o-mini-context_dataset-34890e76",
+    "job_dir": "/path/to/abb/data/mt_bench/jobs/mt-bench-intervention-phrase-fixation-gpt4o-mini-context_dataset-34890e76",
     "factor_cols": [
       "accuracy_score",
       "creativity_score",
@@ -130,7 +130,7 @@
       "helpfulness_score": 2.156492590910467,
       "relevance_score": 2.1618958046306327
     },
-    "job_dir": "/Users/benjaminfeuer/Documents/abb/data/mt_bench/jobs/mt-bench-intervention-voice-bias-gpt4o-mini-context_dataset-62387a84",
+    "job_dir": "/path/to/abb/data/mt_bench/jobs/mt-bench-intervention-voice-bias-gpt4o-mini-context_dataset-62387a84",
     "factor_cols": [
       "accuracy_score",
       "creativity_score",
@@ -177,7 +177,7 @@
       "helpfulness_score": 2.2715907766592887,
       "relevance_score": 2.216847751456391
     },
-    "job_dir": "/Users/benjaminfeuer/Documents/abb/data/mt_bench/jobs/mt-bench-intervention-lexicographic-gpt4o-mini-context_dataset-825c7812",
+    "job_dir": "/path/to/abb/data/mt_bench/jobs/mt-bench-intervention-lexicographic-gpt4o-mini-context_dataset-825c7812",
     "factor_cols": [
       "accuracy_score",
       "creativity_score",
@@ -224,7 +224,7 @@
       "helpfulness_score": 2.1116089912887195,
       "relevance_score": 2.026935857094834
     },
-    "job_dir": "/Users/benjaminfeuer/Documents/abb/data/mt_bench/jobs/mt-bench-intervention-combined-gpt4o-mini-context_dataset-83e2a488",
+    "job_dir": "/path/to/abb/data/mt_bench/jobs/mt-bench-intervention-combined-gpt4o-mini-context_dataset-83e2a488",
     "factor_cols": [
       "accuracy_score",
       "creativity_score",

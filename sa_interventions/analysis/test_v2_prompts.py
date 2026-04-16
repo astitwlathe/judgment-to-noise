@@ -8,7 +8,7 @@ scores, overall, and a simple PASS/FAIL against the expected bias effect.
 This is a prompt-engineering probe, not a full experiment. Cost: ~$0.02.
 
 Usage:
-    source /Users/benjaminfeuer/Documents/secrets.env
+    source /path/to/secrets.env
     conda activate abb
     python test_v2_prompts.py
 """
@@ -207,7 +207,7 @@ def grade_case(client, case, cond_name, injection):
 
 def main():
     if not os.environ.get("OPENAI_API_KEY"):
-        print("ERROR: OPENAI_API_KEY not set. `source /Users/benjaminfeuer/Documents/secrets.env` first.", file=sys.stderr)
+        print("ERROR: OPENAI_API_KEY not set. `source /path/to/secrets.env` first.", file=sys.stderr)
         sys.exit(1)
 
     client = OpenAI()

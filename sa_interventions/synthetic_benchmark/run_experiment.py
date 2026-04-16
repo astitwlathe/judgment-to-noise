@@ -18,7 +18,7 @@ Outputs a JSONL per (judge, condition) under outputs/, plus a combined
 summary CSV.
 
 Usage:
-    source /Users/benjaminfeuer/Documents/secrets.env
+    source /path/to/secrets.env
     conda activate abb
     python run_experiment.py [--judges gpt-5-mini gpt-4o-mini]
                              [--conditions baseline nationality taboo]
@@ -208,7 +208,7 @@ def main():
     args = ap.parse_args()
 
     if not os.environ.get("OPENAI_API_KEY"):
-        print("ERROR: OPENAI_API_KEY not set. source /Users/benjaminfeuer/Documents/secrets.env",
+        print("ERROR: OPENAI_API_KEY not set. source /path/to/secrets.env",
               file=sys.stderr)
         sys.exit(1)
 

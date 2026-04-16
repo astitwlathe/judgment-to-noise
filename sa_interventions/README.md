@@ -65,7 +65,7 @@ bash setup.sh
 
 ```bash
 conda activate ajudge
-source /Users/benjaminfeuer/Documents/secrets.env  # OPENAI_API_KEY
+source /path/to/secrets.env  # OPENAI_API_KEY
 bash run_interventions.sh
 ```
 
@@ -74,7 +74,7 @@ Total cost: < $5 via OpenAI API. Wall-clock: a few hours serial.
 
 Monitor: `ajudge job list`.
 
-Results will appear under `/Users/benjaminfeuer/Documents/abb/data/mt_bench/jobs/` as
+Results will appear under `/path/to/abb/data/mt_bench/jobs/` as
 `mt-bench-intervention-*-gpt4o-mini-context_dataset-<hash>/`.
 
 ### 3. Analyze
@@ -133,10 +133,10 @@ detector, not merely an auditing metric for static benchmarks.
 
  conda activate ajudge
 
-cd "/Users/benjaminfeuer/Documents/judgment-to-noise/sa_interventions"
+cd "/path/to/judgment-to-noise/sa_interventions"
 
   bash setup.sh                                    # install rubrics into ajudge                                          
-  source /Users/benjaminfeuer/Documents/secrets.env                             
+  source /path/to/secrets.env                             
   bash run_interventions.sh                        # ~$5, few hours                                                       
   conda activate abb                                               
   python analysis/analyze_interventions.py         # drift table + JSON/CSV outputs  

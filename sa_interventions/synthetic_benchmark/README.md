@@ -47,7 +47,7 @@ both lets us make the paper-relevant observation:
 
 ```bash
 conda activate abb
-source /Users/benjaminfeuer/Documents/secrets.env
+source /path/to/secrets.env
 
 # Smoke test (first 6 items only)
 python run_experiment.py --limit 6

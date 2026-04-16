@@ -28,11 +28,11 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 
-sys.path.insert(0, "/Users/benjaminfeuer/Documents/abb/bias-bounded-evaluation")
+sys.path.insert(0, "/path/to/abb/bias-bounded-evaluation")
 from differential_debiasing.benchmarks import MTBenchLoader  # noqa: E402
 
 
-MT_BENCH_JOBS_DIR = Path("/Users/benjaminfeuer/Documents/abb/data/mt_bench/jobs")
+MT_BENCH_JOBS_DIR = Path("/path/to/abb/data/mt_bench/jobs")
 
 CONDITIONS: dict[str, str | None] = {
     # label -> job-dir glob pattern (None = auto-detect from name)
